@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  cursor: pointer;
+}
+
+.header .search__bar {
+  display: flex;
+  align-items: center;
+}
+
+.header .search__bar input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+.btn {
+  padding: 7px;
+  cursor: pointer;
+  background-color: rgb(249, 190, 63);
+  border: 1px solid rgb(249, 190, 63);
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgba(247, 150, 40, 0.929);
+  }
+}
+
+.main__content {
+  display: flex;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.left__column {
+  flex: 2;
+  padding-right: 30px;
+}
+
+.right__column {
+  flex: 1;
+}
+
+.sun {
+  font-size: 30px;
+}
+
+.weather {
+  background-color: #e0f7fa;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.weather .temperature {
+  font-size: 32px;
+}
+
+.news__list {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.news__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.news__item span {
+  margin-right: 10px;
+}
+
+.news__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.advertisement {
+  background-color: #8f8f8f;
+  padding: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.advertisement img {
+  max-width: 100%;
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+}
